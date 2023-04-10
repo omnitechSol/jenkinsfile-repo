@@ -15,7 +15,7 @@ pipeline {
 
      stage('install') {
         steps {
-          sh 'touch /tmp/jenkinsfile.txt'
+          sh 'touch /tmp/jenkinsfile-scm.txt'
         }
      }
    }
